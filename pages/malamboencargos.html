@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malambo cerveceria</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<div>
+    <img class= "transformacionimg" src="/media/logofixed2.png" alt="logomalambo" width="200" height="200">      <h1>Encargos</h1>
+</div>
+
+<body>
+
+<nav class="flex" >
+    <ul>
+        <a href="./index.html">Inicio</a> 
+        
+        <a href="./malamboencargos.html">Encargos</a>
+        
+        <a href="./malambokits.html">Kits</a>
+       
+        <a href="./malamborecetas.html">Recetas</a>
+   
+        <a href="./malambotipos.html">Cervezas</a>
+   </ul> 
+</nav>
+
+    
+<div>
+    <h2>Registro</h2>
+    <img src="../media/encargosimagen.jpg" alt="encargosimagen" width="400" height="300">
+</div>
+    <form action="">
+        <div>
+    <label for="nombre">Nombre:</label>
+    <input required type="text" id="nombre" name="nombre" placeholder="Ingese su nombre...">
+        </div>
+    <div>
+    <label for="edad">Edad:</label>
+    <input required type="number" id="edad" name="edad" placeholder="Ingese su edad...">
+        </div>
+        <div>
+            <label for="password">Contraseña:</label>
+            <input required type="password" id="password" name="password" placeholder="ingrese su clave...">     
+        </div>
+        <div>
+            <label for="tipo">Consultas</label>
+            <select name="tipo" id="tipo">
+            <option value="ayuda">Ayuda</option>
+            <option value="envio">Envio</option>
+            <option value="compras">Compras</option>
+        </select>
+        </div>
+        <h2>Tiene experiencia en la fabricación de cerveza?</h2>
+        <label for="si">Si:</label>
+        <input type="radio" name="consulta" id="si" value="si">
+        <label for="no">No:</label>
+        <input type="radio" name="consulta" id="no" value="no">
+        <label for="masomenos">Mas o menos:</label>
+        <input type="radio" name="conulta" id="masomenos" value="masomenos">
+    
+        <h2>Seleccionar el tipo de cerveza</h2>
+        <label for="ipa">Ipa</label>
+        <input type="checkbox" name="cervezas" id="ipa">
+        <label for="stout">Stout</label>
+        <input type="checkbox" name="cervezas" id="stout">
+        <label for="roja">Roja</label>
+        <input type="checkbox" name="cervezas" id="roja">
+    
+        <div>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        </div>
+    <div>
+        <button>Enviar</button>
+    </div>
+    <div>
+        <input type="reset" value="limpiar">
+    </div>
+    </form>
+    
+    
+</body>
+</html>

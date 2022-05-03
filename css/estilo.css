@@ -1,0 +1,200 @@
+*{
+
+    box-sizing: border-box;
+}
+a{
+    text-align: end;
+}
+
+.colorkit{
+    color: black;
+
+    width: 30%;
+
+    padding: none;
+
+    display: flex;
+
+   align-items: center;
+
+   ;
+}
+
+h1{
+    display: flex;
+
+    justify-content: center;
+
+    color: green;
+     
+    text-decoration: underline;
+
+    text-align: center;
+
+    margin-top: 50px;
+    
+    
+}
+
+li{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+}
+
+.parrafo{
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
+
+h2{ color: green
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*
+.fondo{
+    background-color: black;
+}*/
+ul{
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+/*box modeling*/
+
+.parrafo{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: green;
+    background-color: black;
+}
+
+.contParrafo{
+    padding: 15px;
+    border: 1px;
+}
+
+
+img{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/*background*/
+
+body{
+    background-color:  black;
+}
+a{
+    color: black;
+}
+table{
+    color: whitesmoke;
+}
+
+form{
+    color: whitesmoke;
+}
+
+/* menu */
+
+.flex{
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-flow: row wrap;
+
+    align-content: center;
+
+    overflow: hidden;
+
+    margin-left: 32rem;
+
+    background-color: green;
+
+    width: 30%;
+    
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+}
+.caja{
+    border: 3px solid;
+}
+
+
+/*gridul*/
+
+.gridul{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-content: center;
+    padding: 3rem;
+    
+}
+
+.gridul__hijo--1{
+    background-color: green;
+
+}
+
+.gridul__hijo--2{
+    background-color: green;
+}
+
+.gridul__hijo--3{
+    background-color: green;
+}
+
+/*gridimg*/
+
+.gridimg{
+    display: grid;
+
+    grid-template-rows:33% 33% 33% ;
+
+    grid-template-columns: 33% 33% 33%;
+
+    grid-template-areas: 
+    "ele1 ele2 ele3";
+}
+
+.transformacionimg:hover {
+    transform: translate(600px)  rotate(360deg);
+
+}
+
+.transformacionimg{
+    transition: 2s;
+    
+}
+
+.animacionesimg{
+    animation-name: efectologo;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes efectologo{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 3;
+    }
+}
+
